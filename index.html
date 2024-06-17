@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohammad Sahragard">
+    <title>Responsive Profile Page</title>
+    <!-- import font icon (fontawesome) -->
+    <script src="https://kit.fontawesome.com/b8b432d7d3.js" crossorigin="anonymous"></script>
+    <!-- import css file (style.css) -->
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="profile-card">
+            <div class="profile-header"><!-- profile header section -->
+                <div class="main-profile">
+                    <div class="profile-image"></div>
+                    <div class="profile-names">
+                        <h1 class="username">XYZ</h1>
+                        <small class="page-title">Front-End developer</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-body"><!-- profile body section -->
+                <div class="profile-actions">
+                    <button class="follow">Follow</button>
+                    <section class="bio">
+                        <div class="bio-header">
+                            <i class="fa fa-info-circle"></i>
+                            About
+                        </div>
+                        <p class="bio-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+                        </p>
+                    </section>
+                    <section class="bio">
+                        <div class="bio-header">
+                            <i class="fa fa-info-circle"></i>
+                            Experience
+                        </div>
+                        <p class="bio-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="account-info">
+                    <div class="data">
+                        <div class="important-data">
+                            <section class="data-item">
+                                <h3 class="value">45 coins/min</h3>
+                                <small class="title">Audio Call</small>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">65 coins/min</h3>
+                                <small class="title">Video Call</small>
+                            </section>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">Coming Soon</h3>
+                                <small class="title">Chat</small>
+                            </section>
+                        </div>
+                        <div class="other-data">
+                            <section class="data-item">
+                                <h3 class="value">5/10</h3>
+                                <small class="title">Rating</small>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">68hr</h3>
+                                <small class="title">Total Session</small>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">5k</h3>
+                                <small class="title">Follower</small>
+                            </section>
+                        </div>
+                        
+                    </div>
+
+                    <div class="social-media">
+                        <span>Follow me in:</span>
+                        <a href="https://www.linkedin.com/in/" class="media-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/" class="media-link"><i class="fab fa-github-square"></i></a>
+                    </div>
+
+                    <div class="last-post">
+                        <div class="review">
+                            <div class="review__items">
+                                   <img src=
+                     "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" />
+                                   <h1>GeeksforGeeks</h1>
+                                   <p>
+                                      Let's learn to create a review
+                                      carousel using JavaScript.
+                                   </p>
+                            </div>
+                            <div class="review__items">
+                                   <img src=
+                     "https://media.geeksforgeeks.org/wp-content/uploads/20210101144014/gfglogo.png" />
+                                   <h1>Geek Here</h1>
+                                   <p>
+                                      Very useful site to learn cool
+                                      stuff. Improve your skills
+                                   </p>
+                            </div>
+                            <div class="review__items">
+                                   <img src=
+                     "https://media.geeksforgeeks.org/img-practice/courses/GfG_Logo.png" />
+                                   <h1>Hello there!</h1>
+                                   <p>
+                                      Have a nice day, Please visit
+                                      us again. Nice to meet you.
+                                   </p>
+                            </div>
+                            <div class="review__button">
+                                   <button id="prev" onclick="previousReview()">
+                                          PREV
+                                   </button>
+                      
+                                   <button id="next" onclick="nextReview()">
+                                          NEXT
+                                   </button>
+                            </div>
+                     </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
